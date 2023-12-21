@@ -1,7 +1,7 @@
-# MERN Stack Internship Task
+Roxiler-Systems Internship Task
 
 ## Description
-This project is part of the MERN Stack Internship Task. It includes both the frontend and backend components, utilizing the MERN stack technologies (MongoDB, Express.js, React, Node.js).
+This project is part of the Internship Task. It includes both the frontend and backend components, utilizing the MERN stack technologies (MongoDB, Express.js, React, Node.js).
 
 ## Backend Setup
 
