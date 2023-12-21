@@ -53,3 +53,9 @@ In the project directory, you can run:
 - **GET /api/data**: Get data from MongoDB.
 - **POST /api/data**: Add new data to MongoDB.
 
+
+
+![Image 1](https://github.com/ayushgupta9906/Roxiler-Systems-Assignment/raw/main/Screenshot%20(179).png)
+
+![Image 2](https://github.com/ayushgupta9906/Roxiler-Systems-Assignment/raw/main/Screenshot%20(180).png)
+
