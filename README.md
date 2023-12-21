@@ -54,5 +54,6 @@ In the project directory, you can run:
 - **POST /api/data**: Add new data to MongoDB.
 
 ![Image1](1.png)
-![Image1](2.png)
+![Image 2](https://github.com/ayushgupta9906/Roxiler-Systems-Assignment/raw/main/2.png)
+
 
