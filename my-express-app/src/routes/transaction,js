@@ -1,0 +1,50 @@
+// src/components/TransactionsTable.js
+import React, { useState, useEffect } from 'react';
+import { fetchTransactions } from '../services/api';
+
+const TransactionsTable = ({ selectedMonth }) => {
+  const [transactions, setTransactions] = useState([]);
+  const [search, setSearch] = useState('');
+  const [page, setPage] = useState(1);
+
+  useEffect(() => {
+    // Fetch transactions on mount and whenever selectedMonth, search, or page changes
+    const fetchData = async () => {
+      try {
+        const response = await fetchTransactions(selectedMonth, page, 10, search);
+        setTransactions(response.data.transactions);
+      } catch (error) {
+        console.error('Error fetching transactions:', error);
+      }
+    };
+
+    fetchData();
+  }, [selectedMonth, search, page]);
+
+  const handleSearchChange = (event) => {
+    setSearch(event.target.value);
+  };
+
+  const handleNextPage = () => {
+    setPage(page + 1);
+  };
+
+  const handlePreviousPage = () => {
+    if (page > 1) {
+      setPage(page - 1);
+    }
+  };
+
+  return (
+    <div>
+      <h2>Transactions Table</h2>
+      <label>Select Month:</label>
+      {/* Dropdown for selecting month */}
+      {/* Table to display transactions */}
+      {/* Search box */}
+      {/* Pagination controls */}
+    </div>
+  );
+};
+
+export default TransactionsTable;
