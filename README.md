@@ -54,7 +54,6 @@ In the project directory, you can run:
 - **POST /api/data**: Add new data to MongoDB.
 
 
-Output
 ![Image 1](1.png)
 ![Image 2](2.png)
 
