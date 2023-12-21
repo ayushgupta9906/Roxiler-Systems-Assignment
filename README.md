@@ -53,6 +53,8 @@ In the project directory, you can run:
 - **GET /api/data**: Get data from MongoDB.
 - **POST /api/data**: Add new data to MongoDB.
 
+
+
 ![Image 1](1.png)
 ![Image 2](2.png)
 
