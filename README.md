@@ -55,7 +55,7 @@ In the project directory, you can run:
 
 
 
-![Image 1](Screenshot (179).png)
+![Image 1](1.png)
 
-![Image 2](Screenshot (180).png)
+![Image 2](2.png)
 
